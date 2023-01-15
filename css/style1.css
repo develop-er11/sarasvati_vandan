@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url('../images/pexels.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#toran {
+    height: 420px;
+    width: 685px;
+    background-image: url('../images/decoration.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 283px;
+    top: -90px;
+    size: 19px;
+}
+
+.framephoto {
+    height: 398px;
+    width: 300px;
+    background-image: url('../images/sarasvati.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 480px;
+    top: 205px;
+}
+
+.samayileft {
+    height: 400px;
+    width: 134px;
+    background-image: url('../images/Samayi.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 990px;
+    top: 229px;
+    size: 19px;
+    
+}
+
+.samayiright {
+    height: 400px;
+    width: 134px;
+    background-image: url('../images/Samayi.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 131px;
+    top: 229px;
+    size: 19px;
+   
+}
+
+#garland {
+    height: 342px;
+    width: 339px;
+    background-image: url('../images/garland.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 462px;
+    top: 776px;
+    size: 19px;
+}
+
+#zendu {
+    height: 93px;
+    width: 301px;
+    background-image: url('../images/zendu.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 483px;
+    top: -104px;
+    size: 19px;
+}
+
+#flame1 {
+    height: 0px;
+    width: 45px;
+    background-image: url('../images/flame.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 229px;
+    top: 270px;
+    size: 19px;
+}
+
+#flame2 {
+    height: 0px;
+    width: 45px;
+    background-image: url('../images/flame.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 974px;
+    top: 270px;
+    size: 19px;
+}
+
+#tilak {
+    height: 0px;
+    width: 7px;
+    background-image: url('../images/tilak.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 641px;
+    top: 340px;
+    size: 19px;
+}
+
+.btn-group button {
+    background-color: #4CAF50;
+    /* Green background */
+    border: 1px solid green;
+    /* Green border */
+    color: rgb(41, 40, 40);
+    /* White text */
+    padding: 10px 10px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    width: 10%;
+    /* Set a width if needed */
+    display: flex;
+    /* Make the buttons appear below each other */
+    left: 100px;
+    top: 100px;
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none;
+    /* Prevent double borders */
+}
+
+
+/* Add a background color on hover */
+
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
