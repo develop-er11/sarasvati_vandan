@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sarasvati-vandana 2021 &mdash; GHRCEM</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <script src="js/script1.js"></script>
+    <script>
+        (function(w, t, c, p, s, e) {
+            p = new Promise(function(r) {
+                w[c] = {
+                    client: function() {
+                        if (!s) {
+                            s = document.createElement(t);
+                            s.src = 'https://js.cobrowse.io/CobrowseIO.js';
+                            s.async = 1;
+                            e = document.getElementsByTagName(t)[0];
+                            e.parentNode.insertBefore(s, e);
+                            s.onload = function() {
+                                r(w[c]);
+                            };
+                        }
+                        return p;
+                    }
+                };
+            });
+        })(window, 'script', 'CobrowseIO');
+
+        CobrowseIO.license = "zg83rcHZWlXrtQ";
+        CobrowseIO.client().then(function() {
+            CobrowseIO.start();
+        });
+    </script>
+</head>
+
+<body>
+    <div class="framephoto"></div>
+    <div class="samayileft"></div>
+    <div class="samayiright"></div>
+    <div id="garland"></div>
+    <div id="zendu"></div>
+    <div id="flame1"></div>
+    <div id="flame2"></div>
+    <div id="tilak"></div>
+    <div id="toran"></div>
+
+    <h1>Actions</h1>
+
+    <div class="btn-group">
+        <audio id="audio" src="./audio/sarasvati-vandana.mp3"></audio>
+        <button onclick="garlanding('garland','223px') " onmousedown="play()">Offer Garland</button>
+        <!-- <button onclick="tilaking('tilak','223px')">Apply Tilak</button> -->
+        <button onclick="lighting('flame1','223px')">Light Lamp1</button>
+        <button onclick="lighting2('flame2','223px')">Light Lamp2</button>
+        <button onclick="flowering('zendu','223px')">Offer Flower</button>
+    </div>
+
+</body>
+
+
+</html>
